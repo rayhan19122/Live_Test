@@ -4,7 +4,7 @@ class Home extends StatelessWidget{
   const Home({super.key});
   @override
   Widget build(BuildContext context) {
-    final _formKey = GlobalKey<FormState>();
+    final formKey = GlobalKey<FormState>();
     final nameController = TextEditingController();
     final phoneController =  TextEditingController();
 
@@ -68,7 +68,7 @@ class Home extends StatelessWidget{
       body: Padding(
         padding: EdgeInsets.all(16),
         child: Form(
-          key: _formKey,
+          key: formKey,
           child: Column(
             children: [
               TextFormField(
