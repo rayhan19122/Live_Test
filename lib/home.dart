@@ -10,15 +10,15 @@ class Home extends StatelessWidget{
 
     List<Map<String, dynamic>> person =[
       {
-        'name': 'John Doe',
-        'phone': '123-456-7890',
+        'name': 'Md Abu Rayhan',
+        'phone': '01705500372',
       },
       {
         'name': 'Jane Smith',
-        'phone': '987-654-3210',
+        'phone': '01405500372',
       },
       {
-        'name': 'Bob Johnson',
+        'name': 'Dustin',
         'phone': '555-555-5555',
       },
       {
@@ -32,7 +32,28 @@ class Home extends StatelessWidget{
       {
         'name': 'Eve Wilson',
         'phone': '777-777-7777',
-      }
+      },
+      {
+        'name': 'Frank Miller',
+        'phone': '888-888-8888',
+      },
+      {
+        'name': 'Grace Taylor',
+        'phone': '999-999-9999',
+      },
+      {
+        'name': 'Henry Anderson',
+        'phone': '123-456-7890',
+      },
+      {
+        'name': 'Ivy Thomas',
+        'phone': '234-567-8901',
+      },
+      {
+        'name': 'Jack Clark',
+        'phone': '345-678-9012',
+      },
+
     ];
 
     return Scaffold(
